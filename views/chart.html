@@ -1,0 +1,12 @@
+
+<div class="text-center container">
+    <div class="row">
+        <h2> CSV Graph </h2>
+        <div class="col-md-12">        
+           <button class="btn btn-default" ng-click="showGraph()" ng-disabled="data.length==0">Show Graph</button>
+        </div>
+        <div ng-repeat="data in data" class="col-md-5" ng-if="data.length>0">
+            <div class="chartdiv"  id="chartdiv{{$index}}"></div>	
+        </div>
+    </div>
+</div>

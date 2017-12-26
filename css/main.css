@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+}
+
+.back { 
+    /* The image used */
+   
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.chartdiv {
+	width	: 100%;
+	height	: 300px;
+}
+			
+.successText{
+    color:green;
+}
+.footer{
+    position: fixed!important;
+    bottom:0px;
+    margin: 10px 0px;
+}
